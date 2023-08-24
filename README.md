@@ -1,7 +1,7 @@
 ---
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 # PicklistGeneratorApp
@@ -11,6 +11,20 @@ The current purpose is to shoot fluorescent antibody panels to stain cells for f
 Using this app reduces the time for preparing the picklist while including controls such as FMOs, isotype controls and single stains for compensation.
 
 ## Getting started
+
+## Download the app
+
+To download the app, click on the green "<> Code" button and choose "Download ZIP".
+Save the whole folder in a directory of your choice.
+
+IF YOU ARE WORKING ON MAC:
+
+Open the "RunAppMac.sh" file in an editor (e.g. TextEdit) and replace the pathname with the new path in which you saved the "gui.py" file, e.g:
+
+```{bash}
+python /your/path/to/gui.py
+```
+
 
 ### Installation of Python on Windows
 
