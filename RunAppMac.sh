@@ -1,0 +1,1 @@
+python /Users/dominik/Programming/PicklistGenerator/App/gui.py

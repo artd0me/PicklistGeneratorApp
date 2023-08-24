@@ -1,0 +1,16 @@
+Source Plate Barcode,Source Well,Destination Plate Barcode,Destination Well,Transfer Volume
+source plate,B2,destinationplate,A1,50.0
+source plate,B3,destinationplate,A1,100.0
+source plate,B4,destinationplate,A1,75.0
+source plate,B5,destinationplate,A1,50.0
+source plate,B2,destinationplate,A2,100.0
+source plate,B3,destinationplate,A2,200.0
+source plate,B4,destinationplate,A2,150.0
+source plate,B5,destinationplate,A2,100.0
+source plate,B5,destinationplate,A3,50.0
+source plate,B6,destinationplate,A3,100.0
+source plate,B3,destinationplate,B1,100.0
+source plate,B3,destinationplate,B2,100.0
+source plate,B4,destinationplate,B2,75.0
+source plate,B5,destinationplate,B2,50.0
+source plate,C2,destinationplate,B3,75.0
