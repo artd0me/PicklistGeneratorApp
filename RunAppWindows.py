@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog
 #from picklistgenerator import functions as pg
-from picklistgenerator.utils import *
+from picklistgenerator.utils import Picklist
 
 def browse_annotation():
     file_path = filedialog.askopenfilename()
@@ -19,10 +19,11 @@ def browse_directory():
         directory_var.set(dir_path)
 
 def run_functions():
-    annotation = import_file(annotation_var.get())
-    panel = import_file(panel_var.get())
-    picklist = generate_picklist(annotation, panel)
-    export_picklist(picklist,directory_var.get(), experimentName_var.get())
+    picklist = Picklist(annotation_var.get(),panel_var.get())
+    #annotation = import_file(annotation_var.get())
+    #panel = import_file(panel_var.get())
+    picklist.generate_picklist()
+    picklist.export_picklist(directory_var.get(), experimentName_var.get())
 
 root = tk.Tk()
 root.title("Picklist Generator")
