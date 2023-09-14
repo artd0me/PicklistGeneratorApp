@@ -28,7 +28,8 @@ python /your/path/to/gui.py
 
 ### Installation of Python on Windows
 
-To use this app, install Python on your computer.\
+To use this app, install Python on your computer: download it and execute the downloaded file.\
+Under Advanced options during the installation setup, tick the field "Add Python to environment variables".\
 To verify that Python is working, use the Windows Command Prompt:\
 1. Press Windows key + R.\
 2. Type "cmd" and press enter.
